@@ -1,0 +1,134 @@
+body {
+	background-color: #f7efd2;
+	position: relative;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+.jumbotron {
+	background-color: #cd8b62;
+	margin-bottom: 0px;
+}
+
+.container {
+	width:100%;
+	padding-left: 15em;
+	padding-right: 15em;
+
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	position: fixed;
+	right: 5%;
+
+}
+
+
+.navbar-default {
+	background-color: transparent;
+	background-color: transparent;
+}
+.navbar-brand {
+	font-weight: bold;
+  	font-family: 'Lato', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:#344040;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: #344040;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #fff;
+ 
+  width: 100%;
+}
+
+.navbar-collapse {
+	padding-right: 0px;
+	padding-left:0px;
+}
+
+footer {
+	margin: 0 auto;
+	background-color: #344040;
+}
+
+footer ul {
+	text-align: center;
+}
+footer ul li {
+	display: inline;
+	font-family: 'Lato', sans-serif;
+	padding-right: 28px;
+}
+
+footer ul li a {
+	color: #eee;
+}
+
+#footer-links {
+	margin-bottom: 0px;
+}
+
+.navbar .nav > li {
+display: block;
+float: none;
+}
+
+#about {
+	background-color: #DB4641;
+ 	
+}
+
+#portfolio {
+	background-color: #A6907A;
+ 
+}
+
+#resume {
+	background-color: #F0E1BB;
+ 	
+}
+
+#resume > h3 {
+
+}
+#contact {
+	background-color: #BEAC91;
+ 	
+}
+
+.face {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-moz-border-radius: 150px;
+	border:solid 5px;
+	background: url(assets/PojSuit.jpg) no-repeat;
+}
