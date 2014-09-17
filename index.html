@@ -21,13 +21,18 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body data-spy="scroll" data-target="#main-navbar">
-
+  <body data-spy="scroll" data-target="#main-navbar" class="fixed">
+          <!-- Intro Section -->
+      <div id="intro" class="container">
+        <h1>ALEXPOJMAN</h1>
+        <h3>"To Get Nowhere, Follow the Crowd"</h3>
+        <a href="#about" id="info_link"><span id="arrow" class="glyphicon glyphicon-arrow-down"></span></a>
+      </div>
       <!-- Static navbar -->
-      <div id="main-navbar" class="navbar navbar-default" role="navigation">
+      <nav id="main-navbar" class="navbar navbar-default scrollSpying" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <button id="collapse-btn" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -35,7 +40,7 @@
             </button>
             
           </div>
-          <div class="navbar-collapse collapse">
+          <div id="collapse-nav" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li>
                 <a href="#about" id="about_link">About</a>
@@ -52,70 +57,122 @@
             </ul>
           </div>
         </div>
-      </div>
+      </nav>
 
-      <!-- Intro Section -->
-      <div id="intro" class="container">
-        <h1>ALEXPOJMAN</h1>
-        <div class="face">
-        </div>
-      </div>
+
       <!-- About Section -->
-      <div id="about" class="container"><h1>About Me</h1><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p>
+      <div id="about" class="container">
+        <h1>ABOUT</h1>
+        <hr>
+        <div id="profpi"></div>
+        <h3>Developer x Designer x Musician</h3>
 
       </div>
 
      <!-- Portfolio Section -->
      <div id="portfolio" class="container">
-       <h1>Portfolio</h1><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p>
+       <h1>PORTFOLIO</h1>
+       <hr>
+       <a href="http://songdice.nl/sumoureyes/index.php"><img src="css/assets/LastPiece_Logo.png"></a>
+       <a href="http://songdice.nl/sumoureyes/index.php"><img src="css/assets/sumoureyes_logo.png"></a>
      </div>
 
      <!-- Resume Section -->
      <div id="resume" class="container">
-      <h1>Resume</h1>
+      <h1>RESUME</h1>
        <hr>
         <h3>Education</h3>
         <div>
           <div class="row">
-            <div class="col-md-6">
-              <ul>
-                <li> 
-                  <span>Test</span>
-                </li>
-              </ul>
+            <div class="col-md-4">
+                  <h4>University of Wisconsin-Madison</h4> 
+                  <h5>Madison, WI</h5>
+                  <h5>2009-2013</h5>    
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
+                  <p>BBA Information Systems</p>
+                <span>this is a bunch of shit that I just made up to try and test the functionality of my website in its current state</span>
+                  <p>BBA International Business</p>
+                  <span>this is a bunch of shit that I just made up to try and test the functionality of my website in its current state</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Universiteit Utrecht<h4>
+                <h5>Utrecht, the Netherlands</h5>
+                <h5>January-July 2012</h5>
+            </div>
+            <div class="col-md-8">
+              <p>Information and Communications Technology</p>
+              <span>this is a bunch of shit that I just made up to try and test the functionality of my website in its current state</span>
             </div>
           </div>
           <hr>
           <h3>Work History</h3>
           <div class="row">
-            <div class="col-md-6">
-              <ul>
-                <li> 
-                  <span>Test</span>
-                </li>            <li> 
-                  <span>Test</span>
-                </li>            <li> 
-                  <span>Test</span>
-                </li>            <li> 
-                  <span>Test</span>
-                </li>            <li> 
-                  <span>Test</span>
-                </li>            <li> 
-                  <span>Test</span>
-                </li>            <li> 
-                  <span>Test</span>
-                </li>            <li> 
-                  <span>Test</span>
-                </li>            <li> 
-                  <span>Test</span>
-                </li>            <li> 
-                  <span>Test</span>
-                </li>
-              </ul>
+            <div class="col-md-4">
+              <h4>Accenture</h4>
+              <h5>Chicago, IL</h5>
+              <h5>January 2014-Present</h5>  
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
+              <p>Business and Systems Integration Senior Analyst</p>
+              <span>Help clients realize their business potential and perform a variety of duties based on the client situation and particular project. Worked with configuration and control of change management in an Oracle E-Business Suite implementation effort for my last client, which involved writing and configuring Unix scripts to aid in the process of code migration between the various instances of the application.</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h4>University of Wisconsin Law School</h4> 
+              <h5>Madison, WI</h5>
+              <h5>September 2013-January 2014</h5>
+            </div>
+            <div class="col-md-8">
+              <p>Help Desk Assistant</p>
+              <span>In charge of helping students and faculty with any technology-related problems they might be having, as well as perform basic information technology related maintenance and upgrades as needed.</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Bemis Company, Inc.</h4> 
+              <h5>Neenah, WI</h5>
+              <h5>May 2013-August 2013</h5> 
+            </div>
+            <div class="col-md-8">
+              <p>Mobile IT Internship</p>
+              <span>Develop and discover new mobile solutions for the company’s previously existing information systems. I helped to develop and spearhead a project that involved working closely with end users to construct a customer relationship management application for future use by mobile sales, marketing, and management teams within the organization.</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Empire Photography</h4>
+              <h5>Madison, WI</h5>
+              <h5>July 2012-October 2012</h5>  
+            </div>
+            <div class="col-md-8">
+              <p>Photographer</p>
+              <span>Travel to various high schools in the Midwest to set up for and photograph athletic and school-sponsored groups and athletic teams.</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h4>CollegeByME</h4> 
+              <h5>Madison, WI</h5>
+              <h5>August 2011-November 2011</h5>  
+            </div>
+            <div class="col-md-8">
+              <p>Team Member</p>
+              <span>Work with two other partners to promote a mobile platform application on UW Campus. I was in charge of formulating the marketing strategies as well as contacting area businesses and organizations for potential partnership opportunities.</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Hamre, Schumann, Mueller & Larson, P.C.</h4> 
+              <h5>Minneapolis, MN</h5>
+              <h5>June 2008-August 2011</h5>  
+            </div>
+            <div class="col-md-8">
+              <p>IT & Office Assitant</p>
+              <span>Upgrade the entire firm (over forty computers) to Windows 7, performing various hardware upgrades, help the attorneys and paralegals with any hardware and software related issues they were experiencing, and assist in the moving of offices and all the technology assets in late August 2011.</span>
             </div>
           </div>
         </div>
@@ -123,42 +180,73 @@
 
      <!-- Contact Section -->
      <div id="contact" class="container">
-       <h1>Contact</h1><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p><p>asdf</p>
-     </div>
-
-    <footer id="footer">
-        <ul id="footer-links">
-          <li>
-            <a href="http://www.linkedin.com/pub/alex-pojman/69/717/b66">LinkedIn</a>
-          </li>
-          <li>
-            <a href="https://github.com/alexpojman">GitHub</a>
-          </li>
-          <li>
-            <a href="http://stackoverflow.com/users/1346328/alex-pojman">Stack Overflow</a>
-          </li>
-          <li>
-            <a href="mailto:pojman.alex@gmail.com">Email</a>
-          </li>
-        </ul>
-    </footer>
+       <h1>CONTACT</h1>
+       <hr>
+       <div id="footer-links-wrapper">
+        <div class="footer-links">
+          
+            <a href="http://www.linkedin.com/pub/alex-pojman/69/717/b66"><img src="css/assets/social_media_icons/64x64/_0017_Linked-in.png"></a>
+         
+            <a href="https://github.com/alexpojman"><img src="css/assets/social_media_icons/64x64/_0019_Github2.png"></a>
+         
+        </div>
+        <div class="footer-links">
+            <a href="http://stackoverflow.com/users/1346328/alex-pojman"><img src="css/assets/social_media_icons/64x64/_0020_StackO.png"></a>
+          
+            <a href="mailto:pojman.alex@gmail.com"><img src="css/assets/social_media_icons/64x64/_0000_Mail.png"></a>
+          
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scrollTo.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
 
     <!-- Custom JQuery Scripts -->
     <script>
       $(document).ready(function() {
-		    document.location = '#';
+        if(($(window).innerWidth()) <= 767) {
+          $("#main-navbar").sticky({topSpacing:0});
+        }
+        else {
+          $("#main-navbar").sticky({topSpacing:75});
+        }
+        applyHeader();
+        applyResize();
       });
     
-      $(window).on('beforeunload', function() {
-       $(window).scrollTop(0);
+     
+
+    function applyHeader()
+    {
+      $('#intro').css({ height: ($(window).height()) +'px' });
+
+    } 
+
+    function applyResize()
+    {
+      $(window).on('resize', function() 
+      {  
+        if(($(window).innerWidth()) <= 767) {
+          $("#main-navbar").removeClass('scrollSpying');
+          $(".navbar-nav li.active").removeClass('active');
+        }
+        else {
+          $("#main-navbar").addClass('scrollSpying');
+        }
+
+        $('#intro').css({ height: ($(window).height()) +'px'});
+      }); 
+    }
+   
+
+      $('#info_link').scrollTo({
+        speed: '3500'
       });
-    
     
       $('#about_link').scrollTo({
         speed: '3500'
@@ -176,7 +264,9 @@
         speed: '3500'
       });
 
-      $('body').scrollspy({ target: '#main-navbar' });
+     
+      $('body').scrollspy({ target: '.scrollSpying' });
+      
     </script>
   </body>
 </html>
